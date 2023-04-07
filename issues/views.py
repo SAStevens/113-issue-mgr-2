@@ -71,7 +71,6 @@ class IssueDeleteView(
         )
 
 
-
 class IssueListView(LoginRequiredMixin, ListView):
     model = Issue
     template_name = "issues/list.html"
